@@ -59,14 +59,18 @@
             android:id="@+id/actionItemHome"
             app:destination="@id/itemHome" />
         <argument
-            android:name="RestoName"
+            android:name="nama"
             app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/addReviewFragment"
         android:name="com.ubaya.uts_anmp.view.AddReviewFragment"
         android:label="Review"
-        tools:layout="@layout/fragment_add_review" />
+        tools:layout="@layout/fragment_add_review" >
+        <action
+            android:id="@+id/actiontoIremHome"
+            app:destination="@id/itemHome" />
+    </fragment>
     <fragment
         android:id="@+id/menuFragment"
         android:name="com.ubaya.uts_anmp.view.MenuFragment"

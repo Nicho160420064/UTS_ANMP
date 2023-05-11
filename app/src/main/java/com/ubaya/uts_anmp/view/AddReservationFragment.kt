@@ -19,8 +19,8 @@ class AddReservationFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_add_reservation, container, false)
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        //val names = view.findViewById<TextView>(R.id.txtReservationRestaurantName)
-        //names?.setText(AddReservationFragmentArgs.fromBundle(requireArguments()).restoName)
+        val names = view.findViewById<TextView>(R.id.txtReservationRestaurantName)
+        //names.setText(AddReservationFragmentArgs.fromBundle(requireArguments()).restoName)
         val btnReservation = view.findViewById<Button>(R.id.btnAddReservation)
         btnReservation.setOnClickListener{
             val action = AddReservationFragmentDirections.actionItemHome()

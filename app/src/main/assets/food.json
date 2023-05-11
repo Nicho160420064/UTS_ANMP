@@ -1,0 +1,22 @@
+{
+  "food": [
+    {
+      "nama": "Warung Bandung Mang Adoel",
+      "jarak": "350 M",
+      "gambar": "https://lh5.googleusercontent.com/p/AF1QipO8kxesfgwIjtrZgq36QB6KpSJVgE1ltwdb_-Rs=w408-h306-k-no",
+      "review": "24"
+    },
+    {
+      "nama": "Depot AT 29",
+      "jarak": "140 M",
+      "gambar": "https://lh5.googleusercontent.com/p/AF1QipOM1O6ChrXnkozvieGvk6ughoyfntFVgCHz44Jg=w426-h240-k-no",
+      "review": "131"
+    },
+    {
+      "nama": "Gold Dust Coffee",
+      "jarak": "350 M",
+      "gambar": "https://lh5.googleusercontent.com/p/AF1QipOlUhIPZ7AADu-xbWUrU7EHEHTNBGozsCBceK9K=w426-h240-k-no",
+      "review": "147"
+    }
+  ]
+}
